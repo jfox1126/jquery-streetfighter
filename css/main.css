@@ -1,9 +1,6 @@
 body {
 	background-color: black;
-}
-
-*{
-	outline: red 1px solid;
+	font-family: 'Architects Daughter', cursive;
 }
 
 .main {
@@ -53,6 +50,27 @@ body {
   	height: 90px;
   	float: left;
   	top: 170px;
-  	left: -150px;
+  	left: -170px;
   	display: none;
+}
+
+.instructions {
+	position: absolute;
+	top: 7rem;
+	left: 50rem;
+	width: 45rem;
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 1.75;
+	text-transform: uppercase;
+}
+
+#throw {
+	width: 25rem;
+}
+
+#pose {
+	width: 25rem;
+	float: right;
+	margin-top: 2rem;
 }
